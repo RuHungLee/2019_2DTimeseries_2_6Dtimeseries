@@ -1,0 +1,128 @@
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W1012 12:14:36.421395 139667263031104 deprecation_wrapper.py:119] From train.py:14: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W1012 12:14:36.421595 139667263031104 deprecation_wrapper.py:119] From train.py:15: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W1012 12:14:36.421668 139667263031104 deprecation_wrapper.py:119] From train.py:15: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-10-12 12:14:36.431866: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-12 12:14:36.467783: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+2019-10-12 12:14:36.475662: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5606fee64d60 executing computations on platform Host. Devices:
+2019-10-12 12:14:36.475725: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-12 12:14:36.475986: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-10-12 12:14:36.547522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:61:00.0
+2019-10-12 12:14:36.547604: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-10-12 12:14:36.547657: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-10-12 12:14:36.547693: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-10-12 12:14:36.547730: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-10-12 12:14:36.550662: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-10-12 12:14:36.550747: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-10-12 12:14:36.550786: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-10-12 12:14:36.556880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-10-12 12:14:38.246080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-12 12:14:38.246129: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-10-12 12:14:38.246136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-10-12 12:14:38.251394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10267 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:61:00.0, compute capability: 6.1)
+2019-10-12 12:14:38.253990: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56073933a530 executing computations on platform CUDA. Devices:
+2019-10-12 12:14:38.254011: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+W1012 12:14:40.493470 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1012 12:14:40.494436 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W1012 12:14:43.925035 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W1012 12:14:44.205428 139667263031104 deprecation.py:323] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-10-12 12:14:48.093675: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:61:00.0
+2019-10-12 12:14:48.093771: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-10-12 12:14:48.093839: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-10-12 12:14:48.093850: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-10-12 12:14:48.093858: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-10-12 12:14:48.093911: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-10-12 12:14:48.093921: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-10-12 12:14:48.093930: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-10-12 12:14:48.097038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-10-12 12:14:48.097109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-10-12 12:14:48.097116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-10-12 12:14:48.097122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-10-12 12:14:48.101617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10267 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:61:00.0, compute capability: 6.1)
+W1012 12:14:49.900296 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/callbacks.py:848: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+W1012 12:14:49.943048 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/callbacks.py:850: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W1012 12:14:49.944586 139667263031104 deprecation_wrapper.py:119] From /home/eric123/.conda/envs/machinelearning/lib/python3.6/site-packages/keras/callbacks.py:853: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+Train on 269 samples, validate on 30 samples
+Epoch 1/2000
+
+  2/269 [..............................] - ETA: 24:12 - loss: 24488.0117
+  4/269 [..............................] - ETA: 19:57 - loss: 19806.8481
+  6/269 [..............................] - ETA: 18:20 - loss: 16415.2887
+  8/269 [..............................] - ETA: 17:11 - loss: 15763.4624
+ 10/269 [>.............................] - ETA: 16:24 - loss: 14977.1156
+ 12/269 [>.............................] - ETA: 15:54 - loss: 13751.5972
+ 14/269 [>.............................] - ETA: 15:28 - loss: 15118.5239
+ 16/269 [>.............................] - ETA: 15:10 - loss: 14779.8408
+ 18/269 [=>............................] - ETA: 14:55 - loss: 14496.2858
+ 20/269 [=>............................] - ETA: 14:44 - loss: 14843.5525
+ 22/269 [=>............................] - ETA: 14:31 - loss: 14769.1589
+ 24/269 [=>............................] - ETA: 14:22 - loss: 14907.3618
+ 26/269 [=>............................] - ETA: 14:10 - loss: 14877.5922
+ 28/269 [==>...........................] - ETA: 14:02 - loss: 14819.2895
+ 30/269 [==>...........................] - ETA: 13:53 - loss: 14811.9639
+ 32/269 [==>...........................] - ETA: 13:42 - loss: 14708.4261
+ 34/269 [==>...........................] - ETA: 13:40 - loss: 14582.7730
+ 36/269 [===>..........................] - ETA: 13:35 - loss: 14478.2651
+ 38/269 [===>..........................] - ETA: 13:28 - loss: 14831.2300
+ 40/269 [===>..........................] - ETA: 13:20 - loss: 14990.5976
+ 42/269 [===>..........................] - ETA: 13:10 - loss: 14897.6524
+ 44/269 [===>..........................] - ETA: 13:04 - loss: 15030.8794
+ 46/269 [====>.........................] - ETA: 12:55 - loss: 14791.5259
+ 48/269 [====>.........................] - ETA: 12:52 - loss: 14590.8116
+ 50/269 [====>.........................] - ETA: 12:50 - loss: 14462.4951
+ 52/269 [====>.........................] - ETA: 12:42 - loss: 14338.8655
+ 54/269 [=====>........................] - ETA: 12:34 - loss: 14411.6456
+ 56/269 [=====>........................] - ETA: 12:27 - loss: 14213.3683
+ 58/269 [=====>........................] - ETA: 12:21 - loss: 14381.8324
+ 60/269 [=====>........................] - ETA: 12:12 - loss: 14366.8704
+ 62/269 [=====>........................] - ETA: 12:05 - loss: 14294.6896
+ 64/269 [======>.......................] - ETA: 11:57 - loss: 14346.5231
+ 66/269 [======>.......................] - ETA: 11:48 - loss: 14350.5860
+ 68/269 [======>.......................] - ETA: 11:40 - loss: 14453.5261
+ 70/269 [======>.......................] - ETA: 11:35 - loss: 14420.6018
+ 72/269 [=======>......................] - ETA: 11:26 - loss: 14440.5683
+ 74/269 [=======>......................] - ETA: 11:18 - loss: 14450.4858
+ 76/269 [=======>......................] - ETA: 11:14 - loss: 14620.9826
+ 78/269 [=======>......................] - ETA: 11:06 - loss: 14574.3286
+ 80/269 [=======>......................] - ETA: 10:58 - loss: 14668.5838
+ 82/269 [========>.....................] - ETA: 10:50 - loss: 14849.4083
+ 84/269 [========>.....................] - ETA: 10:42 - loss: 14961.3172
+ 86/269 [========>.....................] - ETA: 10:34 - loss: 15149.7758
+ 88/269 [========>.....................] - ETA: 10:26 - loss: 15106.0123
+ 90/269 [=========>....................] - ETA: 10:19 - loss: 15088.3679
+ 92/269 [=========>....................] - ETA: 10:13 - loss: 15090.4986
+ 94/269 [=========>....................] - ETA: 10:05 - loss: 15037.6966
+ 96/269 [=========>....................] - ETA: 9:57 - loss: 14995.1296 
+ 98/269 [=========>....................] - ETA: 9:50 - loss: 14934.1115
+100/269 [==========>...................] - ETA: 9:43 - loss: 14913.6639
+102/269 [==========>...................] - ETA: 9:35 - loss: 14861.9506
+104/269 [==========>...................] - ETA: 9:29 - loss: 14790.9629
+106/269 [==========>...................] - ETA: 9:22 - loss: 14897.2272
+108/269 [===========>..................] - ETA: 9:15 - loss: 14861.6725
+110/269 [===========>..................] - ETA: 9:08 - loss: 14917.1246
+112/269 [===========>..................] - ETA: 9:00 - loss: 14815.6565
+114/269 [===========>..................] - ETA: 8:54 - loss: 14894.0348
+116/269 [===========>..................] - ETA: 8:46 - loss: 14932.9664
+118/269 [============>.................] - ETA: 8:40 - loss: 14882.8837
+120/269 [============>.................] - ETA: 8:33 - loss: 14871.1656
+122/269 [============>.................] - ETA: 8:26 - loss: 14887.3298
+124/269 [============>.................] - ETA: 8:19 - loss: 14885.8848
+126/269 [=============>................] - ETA: 8:12 - loss: 14842.0340
+128/269 [=============>................] - ETA: 8:05 - loss: 14834.9321
+130/269 [=============>................] - ETA: 7:58 - loss: 14866.5491
